@@ -1,0 +1,59 @@
+p{
+    color: gray;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+.lead-card{
+    background-color: rgba(233, 236, 239, 1);
+}
+
+.nameAndLocation i{
+    color: gray;
+}
+
+.requesTitle{
+    background-color: rgba(220,251,230,255);
+}
+
+.employee{
+    background-color: rgba(218,233,254,255);
+    color: rgba(129,144,202,255);
+}
+
+.assign i{
+    font-size: 2rem;
+}
+
+.lead-card:hover , .lead-card:active{
+    cursor: pointer;
+    background-color: #d6eaf8;
+}
+
+
+/*------------------------ Media Query ------------------------ */
+
+@media screen and ( 992px < width < 1200px) {
+    .employeeDiv{
+        justify-content: start !important;
+        margin-left: 15px;
+    }
+}
+
+@media screen and ( 1200px < width < 1400px) {
+    .employeeDiv{
+        justify-content: start !important;
+        margin-left: 62px;
+    }
+}
+
+@media screen and ( 1400px < width) {
+    .employeeDiv{
+        justify-content: start !important;
+        margin-left: 105px;
+    }
+}
+
+
