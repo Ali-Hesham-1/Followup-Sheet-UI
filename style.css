@@ -1,4 +1,4 @@
-p{
+.text-gray{
     color: gray;
 }
 
@@ -23,8 +23,19 @@ p{
     color: rgba(129,144,202,255);
 }
 
+
 .assign i{
     font-size: 2rem;
+}
+
+.assignToDropdown{
+    height: 30px;
+}
+
+.assignToButton{
+    position: relative;
+    top: 1.5px;
+    padding-left: 3px;
 }
 
 .lead-card:hover , .lead-card:active{
@@ -32,28 +43,56 @@ p{
     background-color: #d6eaf8;
 }
 
+.data-section-content{
+    margin-top: 70px;
+    min-height: 500px;
+}
+
+.backToCardsSection-btn{
+    color: black;
+}
+
+.backToCardsSection-btn:hover{
+    color: red;
+    cursor: pointer;
+}
+
 
 /*------------------------ Media Query ------------------------ */
 
-@media screen and ( 992px < width < 1200px) {
-    .employeeDiv{
+@media screen and ( 768px < width < 992px) {
+    .employeeDiv {
+        justify-content: space-between !important;
+    }
+    .employee{
+        position: relative;
+        left: 10px;
+    }
+    .assignToDropdown , .assignToButton{
+        position: relative;
+        left: 25px;
+    }
+}
+@media screen and ( 992px < width < 1999px) {
+    .employeeDiv {
         justify-content: start !important;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 }
 
 @media screen and ( 1200px < width < 1400px) {
-    .employeeDiv{
+    .employeeDiv {
         justify-content: start !important;
-        margin-left: 62px;
+        margin-left: 38px;
     }
 }
 
 @media screen and ( 1400px < width) {
-    .employeeDiv{
+    .employeeDiv {
         justify-content: start !important;
-        margin-left: 105px;
+        margin-left: 50px;
     }
+
 }
 
 
