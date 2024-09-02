@@ -5,6 +5,9 @@
 .fit-content{
     width: fit-content;
 }
+.p-7{
+    padding-top: 7px;
+}
 
 .lead-card{
     background-color: rgba(233, 236, 239, 1);
@@ -24,7 +27,7 @@
 }
 
 
-.assign i{
+.assignToButton{
     font-size: 2rem;
 }
 
@@ -32,11 +35,6 @@
     height: 30px;
 }
 
-.assignToButton{
-    position: relative;
-    top: 1.5px;
-    padding-left: 3px;
-}
 
 .lead-card:hover , .lead-card:active{
     cursor: pointer;
@@ -55,44 +53,6 @@
 .backToCardsSection-btn:hover{
     color: red;
     cursor: pointer;
-}
-
-
-/*------------------------ Media Query ------------------------ */
-
-@media screen and ( 768px < width < 992px) {
-    .employeeDiv {
-        justify-content: space-between !important;
-    }
-    .employee{
-        position: relative;
-        left: 10px;
-    }
-    .assignToDropdown , .assignToButton{
-        position: relative;
-        left: 25px;
-    }
-}
-@media screen and ( 992px < width < 1999px) {
-    .employeeDiv {
-        justify-content: start !important;
-        margin-left: 10px;
-    }
-}
-
-@media screen and ( 1200px < width < 1400px) {
-    .employeeDiv {
-        justify-content: start !important;
-        margin-left: 38px;
-    }
-}
-
-@media screen and ( 1400px < width) {
-    .employeeDiv {
-        justify-content: start !important;
-        margin-left: 50px;
-    }
-
 }
 
 
