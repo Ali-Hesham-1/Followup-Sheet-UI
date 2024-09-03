@@ -5,6 +5,7 @@
 .fit-content{
     width: fit-content;
 }
+
 .p-7{
     padding-top: 7px;
 }
@@ -41,18 +42,37 @@
     background-color: #d6eaf8;
 }
 
+
 .data-section-content{
-    margin-top: 70px;
-    min-height: 500px;
+    margin: 70px 0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 0px 0px 0px, rgba(14, 30, 37, 0.32) 0px 0px 2px 0px;
+}
+
+.lead-header , .lead-body{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.lead-footer{
+    height: 52px;
 }
 
 .backToCardsSection-btn{
-    color: black;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .backToCardsSection-btn:hover{
-    color: red;
+    background-color: red !important;
+    border-color: red;
     cursor: pointer;
 }
 
+
+#lead-cards-section{
+    transition: all 0.4s;
+}
+
+#data-section{
+    transition: all 0.4s;
+}
 
